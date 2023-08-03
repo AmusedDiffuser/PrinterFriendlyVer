@@ -1,4 +1,3 @@
-```python
 # Import the pathlib and shutil modules to access the file system and copy files
 from pathlib import Path
 import shutil
@@ -106,4 +105,3 @@ else:
         # Write the table of contents and the document to a new file called output.md in PrinterFriendlyVer folder 
         with open(new_folder / "output.md", "w") as f:
             f.write("# Table of Contents\n\n" + toc + "\n" + doc)
-```
